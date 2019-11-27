@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'SeleniumTestNG'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.4.0'
+    testImplementation 'org.testng:testng:6.8.8'
+}
